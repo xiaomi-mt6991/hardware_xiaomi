@@ -191,6 +191,13 @@
         </interface>
     </hal>
     <hal format="aidl" optional="true">
+        <name>vendor.xiaomi.hardware.camera.mivimessage</name>
+        <interface>
+            <name>IService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
         <name>vendor.xiaomi.hardware.display.mihwcextension</name>
         <interface>
             <name>IMiHwcExtension</name>
